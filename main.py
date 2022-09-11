@@ -1,6 +1,6 @@
 num1 = input('num 1-> ')
 num2 = input('num 2-> ')
-choice = input("1=Prosthesi: ,2=afairesi: ")
+choice = input("1=Prosthesi, 2=afairesi: ")
 
 
 if choice == '1':
