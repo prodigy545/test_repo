@@ -1,16 +1,8 @@
+num1 = input('num 1-> ')
+num2 = input('num 2-> ')
+choice = input("1=Prosthesi: ")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-print("mcsklmklcsmcsklmckls")
-print("na min ksexaso na kano to push kai to repo apo to kinito ")
+if choice == '1':
+    print(float(num1) + float(num2))
+else:
+    print('Not supported.')
